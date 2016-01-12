@@ -1,0 +1,166 @@
+﻿<head>
+
+<meta http-equiv="Content-Type" content="test/html; charset=UTF-8" />
+
+<title> Side projects </title>
+
+<style type="text/css">
+
+body{
+  font-family:"Lucida Console", Monaco, monospace;
+  margin-top: 2.3cm;
+}
+
+
+</style>
+</head>
+
+<script language="JavaScript" type="text/javascript">
+function wind(x) {
+if(document.getElementById) {if(x) document.getElementById("windHide").style.display = "inline"; else document.getElementById("windHide").style.display = "none";}
+if(document.getElementById) {if(x) document.getElementById("windShow").style.display = "none"; else document.getElementById("windShow").style.display = "inline";}
+if(document.getElementById) {if(x) document.getElementById("windBody").style.display = "inline"; else document.getElementById("windBody").style.display = "none";}
+}
+
+function dice(x) {
+if(document.getElementById) {if(x) document.getElementById("diceHide").style.display = "inline"; else document.getElementById("diceHide").style.display = "none";}
+if(document.getElementById) {if(x) document.getElementById("diceShow").style.display = "none"; else document.getElementById("diceShow").style.display = "inline";}
+if(document.getElementById) {if(x) document.getElementById("diceBody").style.display = "inline"; else document.getElementById("diceBody").style.display = "none";}
+}
+
+function viria(x) {
+if(document.getElementById) {if(x) document.getElementById("viriaHide").style.display = "inline"; else document.getElementById("viriaHide").style.display = "none";}
+if(document.getElementById) {if(x) document.getElementById("viriaShow").style.display = "none"; else document.getElementById("viriaShow").style.display = "inline";}
+if(document.getElementById) {if(x) document.getElementById("viriaBody").style.display = "inline"; else document.getElementById("viriaBody").style.display = "none";}
+}
+
+function song(x) {
+if(document.getElementById) {if(x) document.getElementById("songHide").style.display = "inline"; else document.getElementById("songHide").style.display = "none";}
+if(document.getElementById) {if(x) document.getElementById("songShow").style.display = "none"; else document.getElementById("songShow").style.display = "inline";}
+if(document.getElementById) {if(x) document.getElementById("songBody").style.display = "inline"; else document.getElementById("songBody").style.display = "none";}
+}
+
+function Instructions(x) {
+if(document.getElementById) {if(x) document.getElementById("InstructionsHide").style.display = "inline"; else document.getElementById("InstructionsHide").style.display = "none";}
+if(document.getElementById) {if(x) document.getElementById("InstructionsShow").style.display = "none"; else document.getElementById("InstructionsShow").style.display = "inline";}
+if(document.getElementById) {if(x) document.getElementById("InstructionsBody").style.display = "inline"; else document.getElementById("InstructionsBody").style.display = "none";}
+}
+</script>
+
+<body bgcolor="#FFE5FF" text="#804C80">
+
+<div style = "padding-left:75%;">
+<a href="sideprojects_d.html">deutsch</a>
+</div>
+
+<hr width="75%">
+<div style = "padding-left:15%;">
+<h2> Side projects </h2>
+</div>
+<hr width="75%">
+
+
+</br>
+</br>
+
+<div style = "padding-left:15%;width:65%;">
+
+<h3>Read Notes </h3>
+Read Notes is a project to build a classifier, which recognizes whether an image file of a stave contains a note, using Google's new machine learning library TensorFlow. In several preprocessing steps the scanned complete musical pieces are separated into single staves, and the staves into single notes or other objects such as clefs, rests or bars. The current neural network classifier with three hidden layers detects a note with an accuracy of 80%. 
+<br>
+<a href="https://github.com/IsabellKonrad/ReadNotes" target="_blank">Code on Github</a>
+
+<br>
+<br>
+
+<h3> Math Exam Recources </h3>
+For years Math students at the University of British Columbia bought solved previous Math exams to study. 
+These solved exams were copied prints of once solved and never reviewed questions and solutions. To improve the study condition and to open it to financially weaker students,
+I joined a group of graduate students who solved the exams again, published it online using <i>MediaWiki</i> and built an environment, where students find hints next to exam 
+questions and solutions, can remark on questions or solution, find links to similar questions or can rate questions.
+The students also can search for questions by topic. Now, after developing the <i>Math Exam Resources</i> since Feb 2012, 
+we have over 1500 fully solved questions including hints and solutions. By now our <i>Wiki</i> pages receive over 400.000 clicks per semester.
+</br>
+<a href="http://merapp.herokuapp.com/" target="_blank">www.math-exam-resources.com</a>
+
+<br>
+<br>
+
+
+<h3> Shugou App </h3>
+With a group of five people we programmed the card game <i>SET</i> as Android App using the python package 
+<i>Kivy</i>.
+</br>
+<a href="https://play.google.com/store/apps/details?id=org.cantor.shugou" target="_blank">Google Play Store</a>  &nbsp;&nbsp;&nbsp;    <a href="https://github.com/IsabellKonrad/Shugou" target="_blank">Code on Github</a>
+
+<br>
+<br>
+
+
+<h3>Wind turbine distance</h3>
+This dynamical map of Lower Franconia uses the Google Maps API to display the location of wind turbines and their distances to residential areas.
+
+In 2013 the Bavarian state agency for environment suggested a minimal distance amounting 800m of wind turbines to residential areas. If the 10H-Idea becomes effective, the minimal distance would increase to 10 times the height of the wind turbine. Since the height of the wind turbines needs to be about 200m to be economical, the distance to residential areas exceeds about 2000m. Because discussion on the news seemed to be leaded without considering the geographical conditions, we developed the webpage <i>Dynamical map</i>, where the tabu zones for wind turbines are displayed in the region Lower Franconia, i.e. those areas where the distance of the wind turbines to residential domains deceeds the minimum. 
+Using the dynamical map, it is noticeable that with a minimal distance of 2000m the tabu zones cover almost everything, where the remaining free areas mostly are reservation areas.
+Hence, the energy turnaround in Bavaria is not compatible with the 10H-Idea. To create the webpage <i>Dynamical map</i> we used Javascript, Unix shell and Python and embedded the map from Google.
+</br>
+<a href="https://github.com/IsabellKonrad/windAbstand.git" target="_blank">Code on Github</a>
+
+<br>
+<br>
+
+
+<h3>Dice game</h3>
+To learn how to programm computer games or apps, we implemented our favourite dice game based on the dice game <i>Solow\"urfeln</i> in Matlab. We published it on the  webpage File Exchange belonging to Mathworks, where people share open source custom Matlab implementations.
+
+<a href="http://www.mathworks.com/matlabcentral/fileexchange/index?utf8=%E2%9C%93&term=dice+game" target="_blank">File Exchange</a> (Dice Game by Bernhard Konrad).
+You can play against human or computer components.
+
+</br>
+The computer opponents, you can play against in the Matlab dice game, originate in the Dice game contest initiated by Bernhard Konrad and me. Besides us, two others participated in the contest and developed using different strategies four computer opponents which are incorporated in the Matlab dice game.
+
+<br>
+<br>
+
+
+
+<h3>Viria</h3>
+Based on the Ph.D. reseach topic of Bernhard Konrad, we thought up and made a board game for four players illustrating different szenarios in a body after HIV infection. Evidentially people learn easier by handling a subject self-acting and playfully. By playing the boardgame <i>Viria</i> people should become aware of the severity of an HIV infection.
+
+<br>
+<br>
+
+
+<h3>Song books</h3>
+<ul>
+
+	<li> We wrote the songbooks for the youth camp <i>Sommer Camp 2009</i> with 80 participants and the <i>Jumpbook</i> for the youth camp <i>Jump 2010</i> with over 500 participants. The <i>Jumpbook</i> gathers about 100 songs from different composers. For the layout and the guitar chords we had to rewrite and adjust some of the Latex packeges, 
+    <a href="bilder/jumpbook.pdf" target="_blank">Songbook</a>.
+	</li>
+	<li> For the baptism of Noah we build the booklet <i>Taufheft</i>, 
+	<a href="bilder/Taufheft.pdf" target="_blank">Taufheft</a>.
+	</li>
+	<li> This is a songbook with german children's songs with xylophone backing, <a href="bilder/liederbuch.pdf" target="_blank">Liederheft</a>.
+	</li>
+</ul>
+
+</div>	
+
+
+
+
+
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+</body>
+
+

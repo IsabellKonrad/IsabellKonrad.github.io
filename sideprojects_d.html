@@ -1,0 +1,160 @@
+﻿<head>
+
+<meta http-equiv="Content-Type" content="test/html; charset=UTF-8" />
+
+<title> Side projects </title>
+
+<style type="text/css">
+
+body{
+  font-family:"Lucida Console", Monaco, monospace;
+  margin-top: 2.3cm;
+}
+
+
+</style>
+</head>
+
+<script language="JavaScript" type="text/javascript">
+function wind(x) {
+if(document.getElementById) {if(x) document.getElementById("windHide").style.display = "inline"; else document.getElementById("windHide").style.display = "none";}
+if(document.getElementById) {if(x) document.getElementById("windShow").style.display = "none"; else document.getElementById("windShow").style.display = "inline";}
+if(document.getElementById) {if(x) document.getElementById("windBody").style.display = "inline"; else document.getElementById("windBody").style.display = "none";}
+}
+
+function dice(x) {
+if(document.getElementById) {if(x) document.getElementById("diceHide").style.display = "inline"; else document.getElementById("diceHide").style.display = "none";}
+if(document.getElementById) {if(x) document.getElementById("diceShow").style.display = "none"; else document.getElementById("diceShow").style.display = "inline";}
+if(document.getElementById) {if(x) document.getElementById("diceBody").style.display = "inline"; else document.getElementById("diceBody").style.display = "none";}
+}
+
+function viria(x) {
+if(document.getElementById) {if(x) document.getElementById("viriaHide").style.display = "inline"; else document.getElementById("viriaHide").style.display = "none";}
+if(document.getElementById) {if(x) document.getElementById("viriaShow").style.display = "none"; else document.getElementById("viriaShow").style.display = "inline";}
+if(document.getElementById) {if(x) document.getElementById("viriaBody").style.display = "inline"; else document.getElementById("viriaBody").style.display = "none";}
+}
+
+function song(x) {
+if(document.getElementById) {if(x) document.getElementById("songHide").style.display = "inline"; else document.getElementById("songHide").style.display = "none";}
+if(document.getElementById) {if(x) document.getElementById("songShow").style.display = "none"; else document.getElementById("songShow").style.display = "inline";}
+if(document.getElementById) {if(x) document.getElementById("songBody").style.display = "inline"; else document.getElementById("songBody").style.display = "none";}
+}
+
+function Instructions(x) {
+if(document.getElementById) {if(x) document.getElementById("InstructionsHide").style.display = "inline"; else document.getElementById("InstructionsHide").style.display = "none";}
+if(document.getElementById) {if(x) document.getElementById("InstructionsShow").style.display = "none"; else document.getElementById("InstructionsShow").style.display = "inline";}
+if(document.getElementById) {if(x) document.getElementById("InstructionsBody").style.display = "inline"; else document.getElementById("InstructionsBody").style.display = "none";}
+}
+</script>
+
+<body bgcolor="#FFE5FF" text="#804C80">
+
+<div style = "padding-left:75%;">
+<a href="sideprojects_e.html">english</a>
+</div>
+
+
+<hr width="75%">
+<div style = "padding-left:15%;">
+<h2> Side projects </h2>
+</div>
+<hr width="75%">
+
+
+</br>
+</br>
+
+<div style = "padding-left:15%;width:65%;">
+
+
+<h3>Read Notes </h3>
+Im Projekt Read Notes wird ein Klassifizierer erstellt, der erkennt of Bilder mit Notenzeilen Noten enthalten
+oder nicht. Zum Bauen des Klassifizierers wird die neulich veröffentlichte Machine Learning Bibliothek TensorFlow 
+von Google verwendet. In mehreren Schritten werden eingescannte Musikstücke zunächst in einzelne Notenzeilen, dann in die einzelnen Noten oder nicht-Noten zertrennt. Nicht-Noten sind zum Beispiel Notenschlüssel, Pausen oder Taktstriche. Momentan hat das neuronale Netz drei sogenannte hidden layers und erkennt Noten mit einer Genauigkeit von 80%.
+<br>
+<a href="https://github.com/IsabellKonrad/ReadNotes" target="_blank">Code auf Github</a>
+
+<br>
+<br>
+
+<h3> Math Exam Recources </h3>
+Zur Verbesserung der Lernmöglichkeiten der Mathematik-Studenten  an der University of British Columbia werden Mathematik-Altklausuren gelöst und auf einer online-Lernplattform mit <i> MediaWiki</i> veröffentlicht. Die Studenten finden dort klausurrelevante Aufgaben, Tipps und geprüfte Lösungen, können Bemerkungen und Bewertungen 
+abgeben, und es gibt Links zu ähnlichen Aufgaben und Lernmaterial. Nach Entwicklung seit 2012 am <i>MER</i> sind über 1500 gelösten Fragen online. 
+Unsere <i>Wiki</i>-Seiten werden über 400.000 mal pro Semester angeklickt.
+</br>
+<a href="http://merapp.herokuapp.com/" target="_blank">www.math-exam-resources.com</a>
+<br>
+<br>
+
+
+<h3>Windrad-Abstand</h3>
+Seit Mitte des Jahre 2013 wird darüber diskutiert, ob bei der Bauung von Windrädern in Bayern die sogenannte 10H-Idee eine sinnvolle Regelung sei.
+Die 10H-Idee besagt, dass der Abstand von einem Windrad zum nächsten Wohngebiet mindestens die zehnfache Höhe des Windrades betragen muss. Eine dynamische, bequeme Übersicht der Flächen von Unterfranken, die aufgrund dieser Regelung zur Bauung von Windrädern noch verfügbar sind, findet man auf folgender Webseite.  
+</br>
+<a href="https://github.com/IsabellKonrad/windAbstand.git" target="_blank">Code auf Github</a>
+<br>
+<br>
+
+
+<h3> Shugou App </h3>
+Das Kartenspiel SET als Android-App, programmiert mithilfe des Python-Paketes <i>Kivy</i>.
+</br>
+<a href="https://play.google.com/store/apps/details?id=org.cantor.shugou" target="_blank">Google Play Store</a>  &nbsp;&nbsp;&nbsp;    <a href="https://github.com/IsabellKonrad/Shugou" target="_blank">Code auf Github</a>
+
+<br>
+<br>
+
+
+<h3>Würfelspiel</h3>
+Das Würfelspiel ist ein lustiges, belebendes Spiel mit fünf Würfeln, das alleine oder mit beliebig vielen Personen gespielt werden kann. Eine Matlab-Version als Computerspiel kann man sich unter folgendem Link von der Mathworks-Webseite 
+<a href="http://www.mathworks.com/matlabcentral/fileexchange/index?utf8=%E2%9C%93&term=dice+game" target="_blank">File Exchange</a> herunterladen (Dice Game by Bernhard Konrad).
+Bei dem Computerspiel kann man sowohl gegen menschliche Gegner als auch gegen unterschiedlich starke Computer-Gegner spielen.
+
+</br>
+Die Computer-Gegner wurden mithilfe eines Würfelspiel-Wettbewerbs (Dice Game Contest) von vier Teilnehmern entwickelt. 
+<br>
+<br>
+
+
+<h3>Viria</h3>
+Viria ist ein informatives, strategisches Brettspiel. Thematisch geht es um die Dynamiken im Körper eines Menschen, der sich mit dem HI-Virus infiziert hat.
+Das Spiel soll dazu dienen, die komplizierten Vorgänge und die unterschiedlichen "Strategien" der HI-Viren zu verstehen, indem diese vereinfacht und bildhaft im Brettspiel
+wiedergegeben werden.
+<br>
+<br>
+
+
+<h3>Liederbücher</h3>
+<ul>
+
+	<li> Für das jährlich wiederkehrende Sommerzeltlager Jump von der Jugendarbeit der charismatischen Erneuerung (JCE) haben mein Freund Bernhard und ich für 	        das Jahr 2010 das Liederbuch verfasst. Dazu haben wir die Lieder zusammengetragen und mithilfe von Latex aufgeschrieben. Eine Version dieses Liederbuchs
+	     findet man hier, <a href="bilder/jumpbook.pdf" target="_blank">Songbook</a>.
+	</li> 
+
+	<li> Zur Taufe von Bernhards Neffen Noah haben wir das Taufheft zur Gestaltung des Taufgottesdienstes erstellt, 
+	<a href="bilder/Taufheft.pdf" target="_blank">Taufheft</a>.
+	</li>
+	<li> Ein Kinderliederheft zur Begleitung mit dem Xylophon, <a href="bilder/liederbuch.pdf" target="_blank">Liederheft</a>.
+	</li>
+</ul>
+
+</div>	
+
+
+
+
+
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+</body>
+
+
